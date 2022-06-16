@@ -1,5 +1,10 @@
-# Título do Projeto
-##  Breve descrição do projeto
+# Code chalenge
+##  Read a JSON file.
+Create a function that performs calculations on requested fields.
+
+Perform validation of the function parameters.
+
+Log test results.
 
 <br>
   <div align="center">
@@ -7,7 +12,7 @@
       </tr>
             <td>
                 <a  href="https://www.linkedin.com/in/robinsonbrz/">
-                Idéia e deploy por Robinson Enedino
+                by Robinson Enedino
             </td>
         <td>
             <a  href="https://www.linkedin.com/in/robinsonbrz/">
@@ -25,30 +30,21 @@
     </table>
   </div>
 
-Visite meu WebSite [https://www.enedino.com.br](https://www.enedino.com.br)
+Please sisit my Python / Django WebSite [https://www.enedino.com.br](https://www.enedino.com.br)
+
+It has different Django App's and FastAPI mini projects in the portfólio session
+
+They can be checked online and their source code is avaiable on GitHub
+
+
+
   <br><br><br>
 
-## Objetivo:
-
-Lista dos objetivos
+________
 
 
 
-# Próximas features 
-
-
-## Utilização do programa 
-
-<br>
-_______________________
-
-
-<br>
-<br>
-
-
-
-<h1 align="center"> Informações e contato </h1> 
+<h1 align="center">Contact Information</h1> 
   <div align="center">
     <table>
         </tr>
