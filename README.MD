@@ -1,4 +1,4 @@
-# Code chalenge
+# Code challenge
 ##  Read a JSON file.
 Create a function that performs calculations on requested fields.
 
@@ -30,11 +30,17 @@ Log test results.
     </table>
   </div>
 
-Please sisit my Python / Django WebSite [https://www.enedino.com.br](https://www.enedino.com.br)
 
-It has different Django App's and FastAPI mini projects in the portfólio session
+Please visit my Python / Django WebSite.  [https://www.enedino.com.br](https://www.enedino.com.br)
 
-They can be checked online and their source code is avaiable on GitHub
+It has different Django and FastAPI mini projects in the portfolio session.
+
+These apps are up and running on the cloud.
+
+These apps have a small blog page detailing them briefly, with a button for the running demonstration and another button for the GitHub Repository.
+
+[https://www.enedino.com.br/portfolio/](https://www.enedino.com.br/portfolio/)
+
 
 
 
