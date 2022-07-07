@@ -6,6 +6,14 @@ f = open('api-response.json')
 setData = json.load(f)
 
 
+'''
+Better aproach was to acess the dictionary directly
+print( data['67352']['schedule']['years']['2006']['marketRatio'])
+print( data['87390']['schedule']['years']['2016']['marketRatio'])
+
+'''
+
+
 def calculate_ratio(year, id, data):
     '''
     it accepts id and year as string or integer
@@ -66,3 +74,26 @@ print('\n\nYear 2011 ID 87964')
 print(calculate_ratio(2011, 87964, setData))
 print(calculate_ratio(2011, '87964', setData))
 print(calculate_ratio('2011', 87964, setData))
+
+data = setData
+
+# acesso direto a chave
+print( data['67352']['schedule']['years']['2006']['marketRatio'])
+print( data['87390']['schedule']['years']['2016']['marketRatio'])
+
+print(data.get(data['87390']['schedule']['years']['2016']['marketRatio'], 'Chave não encontrada'))
+
+# utilizando o get em dicionarios
+# retorna 'chave não encontrada caso não exista'
+print(data['87390']['schedule']['years']['2016'].get('marketRatio', 'Chave não encontrada'))
+print(data.get('87390', 'Chave não encontrada'))
+
+# Procura uma chave no dicionario
+# o in, usado dessa forma, verifica apenas as chaves do dicionário
+# retorna True
+print('87390' in data)
+print('2016' in data)
+
+data2 = {"outter": data}
+print(data2)
+
